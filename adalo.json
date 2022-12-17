@@ -1,0 +1,16 @@
+{
+  "displayName": "Two-State Icon",
+  "components": [
+    {
+      "name": "TwoStateIcon",
+      "manifest": "./src/components/TwoStateIcon/manifest.json"
+    }
+  ],
+  "author": "James Agib",
+  "description": "2 Icons in one. When you click on the icon, it shows the other icon. You can customize the styles of both icons, size & color can be pulled dynamically from the database. You can also assign different actions to each icon (update an input, database record, etc.)",
+  "logo": "./logo.png",
+  "price": 20,
+  "demoURL": "https://previewer.adalo.com/896597ce-158a-47f9-aa98-64d104351968",
+  "demoAppURL": "https://previewer.adalo.com/896597ce-158a-47f9-aa98-64d104351968",
+  "supportURL": "https://contact.do/818Q"
+}
