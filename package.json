@@ -1,0 +1,23 @@
+{
+  "name": "two-state-icon",
+  "description": "2 Icons in one. When you click on the icon, it shows the other icon. You can customize the styles of both icons, size & color can be pulled dynamically from the database. You can also assign different actions to each icon (update an input, database record, etc.)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "James Agib",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "devDependencies": {
+    "@adalo/cli": "0.0.55",
+    "react": "^16.14.0",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "react-native-web": "^0.9.13"
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^9.2.0"
+  }
+}

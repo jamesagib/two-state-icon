@@ -1,0 +1,67 @@
+{
+  "displayName": "Two-State Icon",
+  "defaultWidth": 25,
+  "defaultHeight": 28,
+  "resizeX": false,
+  "resizeY": false,
+  "components": "./index.js",
+  "icon": "./thumbnail.png",
+  "props": [
+    {
+      "name": "normalSize",
+      "displayName": "Size",
+      "type": "number",
+      "default": 24
+    },
+    {
+      "name": "normalName",
+      "displayName": "Icon Name",
+      "type": "icon",
+      "default": "lock"
+    },
+    {
+      "name": "normalColor",
+      "displayName": "Color",
+      "type": "text",
+      "default": "#00A898",
+      "helpText": "When using a hex color, include the # in the front"
+    },
+    {
+      "name": "normalActions",
+      "displayName": "Click Actions",
+      "type": "action"
+    }
+  ],
+  "childComponents": [
+    {
+      "name": "activeIcon",
+      "displayName": "Active Icon",
+      "props": [
+        {
+          "name": "activeSize",
+          "displayName": "Size",
+          "type": "number",
+          "default": 24
+        },
+        {
+          "name": "activeName",
+          "displayName": "Icon Name",
+          "type": "icon",
+          "default": "directions-bike"
+        },
+        {
+          "name": "activeColor",
+          "displayName": "Color",
+          "type": "text",
+          "default": "#00A898",
+          "helpText": "When using a hex color, include the # in the front"
+        },
+        {
+          "name": "activeActions",
+          "displayName": "Click Actions",
+          "type": "action"
+        }
+      ]
+    }
+  ]
+}
